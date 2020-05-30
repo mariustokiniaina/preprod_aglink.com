@@ -24,3 +24,8 @@ Route::get('/homepage', function () {
 Route::get('/assemble-gle', function () {
     return view('assemble-gle');
 })->name('assemble-gle');
+
+
+Route::get('assemble-gle/{id}', function () {
+    return view('assemble-gle-detail');
+})->name('assemble-gle-detail');

@@ -16,7 +16,7 @@
 								<thead>
 									<tr class="table100-head">
 										<th class="column1">Date</th>
-										<th class="column2">Status</th>
+										<th class="column2">Statut</th>
 										<th class="column3">Numéro d'immeuble</th>
 										<th class="column4">Adresse</th>
 										<th class="column5">Copropriétaires</th>
@@ -71,7 +71,7 @@
 				Historique
 			</span>
 
-			<?php for ($i=0; $i < 5; $i++) { 
+			<?php for ($i=0; $i < 2; $i++) { 
 				$text = '
 			<div class="detail ag-bg-color">
 					<div class="p-t-12 p-b-12 p-l-20 p-r-20">
