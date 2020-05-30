@@ -15,9 +15,15 @@
   src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
 }
 
+/* @font-face {
+  font-family: OpenSans-Semibold;
+  src: url('../fonts/JosefinSans/OpenSans-Semibold.ttf'); 
+} */
+
+
 @font-face {
-  font-family: JosefinSans-Bold;
-  src: url('../fonts/JosefinSans/JosefinSans-Bold.ttf'); 
+  font-family: OpenSans-Semibold;
+  src: url('../fonts/open-sans/OpenSans-Semibold.ttf'); 
 }
 
 
@@ -33,14 +39,14 @@
 
 body, html {
   height: 100%;
-  font-family: Ubuntu-Regular, sans-serif;
+  /* font-family: Ubuntu-Regular, sans-serif; */
   line-height: unset;
 }
 
 /*---------------------------------------------*/
 a {
-  font-family: Ubuntu-Regular;
-  font-size: 14px;
+  /* font-family: Ubuntu-Regular; */
+  font-size: 18px;
   line-height: 1.7;
   color: #666666;
   margin: 0px;
@@ -195,7 +201,7 @@ iframe {
 
 .wrap-login100 {
   width: 500px;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 20px;
   overflow: hidden;
 }
@@ -210,7 +216,7 @@ iframe {
 }
 
 .login100-form-title {
-  font-family: JosefinSans-Bold;
+  font-family: OpenSans-Semibold;
   font-size: 30px;
   line-height: 1.2;
   text-align: left;
@@ -422,7 +428,7 @@ iframe {
 }
 
 .dashbord-title {
-    font-family: JosefinSans-Bold;
+    font-family: OpenSans-Semibold;
     font-size: 24px;
     color: #212529;
     line-height: 1.2;
@@ -506,7 +512,7 @@ iframe {
 
 
 .detail-title {
-    font-family: JosefinSans-Bold;
+    font-family: OpenSans-Semibold;
     line-height: 1.2;
     display: contents;
     font-size: 16px;
@@ -622,7 +628,7 @@ table td.r, table th.r {
 
 
 .table100-head th{
-  font-family: JosefinSans-Bold;
+  font-family: OpenSans-Semibold;
   font-size: 18px;
   color: #212529;
   line-height: 1.2;
@@ -692,7 +698,7 @@ tbody tr:hover {
 }
 
 .history-detail {
-  font-family: JosefinSans-Bold;
+  font-family: OpenSans-Semibold;
   font-size: 13px;
 }
 
@@ -854,7 +860,7 @@ tbody tr:hover {
 
 .item-link {
   color : #fff;
-  font-family: JosefinSans-Bold;
+  font-family: OpenSans-Semibold;
 }
 
 .navbar-nav li+li::before {
@@ -863,7 +869,7 @@ tbody tr:hover {
   margin: 0 8px 5px;
   font-size: 20px;
   color : #fff;
-  font-family: JosefinSans-Bold;
+  font-family: OpenSans-Semibold;
 }
 
 .navbar .dropdown-toggle, .navbar .dropdown-menu a {
