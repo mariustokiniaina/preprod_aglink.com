@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/homepage', function () {
+    return view('dashboard-(Syndic-View)');
+});
+
+Route::get('/assemble-gle', function () {
+    return view('assemble-gle');
 });
