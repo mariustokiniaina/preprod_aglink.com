@@ -454,8 +454,8 @@ iframe {
 }
 
 .dashbord-btn-1{
-  background-color: #007aff;
-  border-color: #007aff;
+  background-color: #0066ff;
+  border-color: #0066ff;
 }
 .dashbord-btn-2{
   background-color: #4cd964;
@@ -472,8 +472,8 @@ iframe {
 }
 
 .dashbord-btn-1:hover {
-  background-color: #007aff40;
-  border-color: #007aff40;
+  background-color: #0066ff40;
+  border-color: #0066ff40;
 }
 
 .dashbord-btn-2:hover {
@@ -487,15 +487,15 @@ iframe {
 }
 
 .detail.ag-bg-color {
-    background-color: #007aff40;
+    background-color: #0066ff4a;
 }
 
 .detail.immeuble-bg-color {
-    background-color: #4cd96470;
+    background-color: #33cc6647;
 }
 
 .detail.gestionnaire-bg-color {
-    background-color: #ffc10780;
+    background-color: #ffc10745;
 }
 
 .detail {
@@ -526,7 +526,7 @@ iframe {
 .fa.add {
     font-size: 14px;
     background-color: #fff;
-    color: #007aff;
+    color: #0066ff;
     padding: 2px 4px 2px 4px;
     border-radius: 10px;
 }
@@ -537,6 +537,26 @@ iframe {
 
 .fa.add.tree {
     color: #ffc107;
+}
+
+.search {
+  font-family: Ubuntu-Bold;
+  font-size: 15px;
+  color: #1b3815;
+  line-height: 1.2;
+  position: relative;
+  display: block;
+  width: 58%;
+  height: 30px;
+  background: #cccccc;
+  border-radius: 5px;
+  padding: 0 35px 0 35px;
+}
+
+.search-form {
+  width: 86%;
+  position: relative;
+  text-align: -webkit-center;
 }
 
 
@@ -673,7 +693,7 @@ tbody tr:hover {
 
 .history-detail {
   font-family: JosefinSans-Bold;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .show-detail {
@@ -682,11 +702,11 @@ tbody tr:hover {
 }
 
 .btn-link-hs {
-  color: #007bff;
+  color: #0066ff;
 }
 
 .btn-link-hs:hover {
-  color: #007aff40;
+  color: #0066ff40;
 }
 
 .online {
@@ -779,7 +799,7 @@ tbody tr:hover {
 /* -------------------------------------------- */
 /* [Navbar] */
 .navbar.navbar-expand-md.mb-4 {
-  background-color: #007bff;
+  background-color: #0066ff;
   height: 11%;
 }
 
@@ -787,24 +807,24 @@ tbody tr:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 13%;
+  width: 12%;
   height: 30px;
   border-radius: 25px;
   font-family: Ubuntu-Bold;
   font-size: 15px;
   background-color: #fff;
   line-height: 1.2;
-  color: #007aff;
+  color: #0066ff;
 
 }
 
 .fa.add.ag {
   color: #fff;
-  background-color: #007aff;
+  background-color: #0066ff;
 }
 
 .btn-add{
-  color: #007aff;
+  color: #0066ff;
 }
 
 .brand {

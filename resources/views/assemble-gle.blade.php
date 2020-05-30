@@ -1,5 +1,5 @@
 @include('layout.header')
-@include('layout.navbar')
+
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-sm">

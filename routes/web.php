@@ -15,12 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/homepage', function () {
     return view('dashboard-(Syndic-View)');
-});
+})->name('homepage');
 
 Route::get('/assemble-gle', function () {
     return view('assemble-gle');
-});
+})->name('assemble-gle');
