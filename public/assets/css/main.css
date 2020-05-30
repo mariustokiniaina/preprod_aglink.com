@@ -39,8 +39,10 @@
 
 body, html {
   height: 100%;
+  margin:0;
   /* font-family: Ubuntu-Regular, sans-serif; */
   line-height: unset;
+  /* overflow-y: hidden; */
 }
 
 /*---------------------------------------------*/
@@ -123,6 +125,10 @@ textarea:-moz-placeholder { color: #1b3815;}
 textarea::-moz-placeholder { color: #1b3815;}
 textarea:-ms-input-placeholder { color: #1b3815;}
 
+.navbar.navbar-expand-md.mb-4.clear{
+  background-color: #fff;
+}
+
 /*---------------------------------------------*/
 button {
   outline: none !important;
@@ -185,7 +191,6 @@ iframe {
 
 .container-login100 {
   width: 100%;  
-  min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -201,9 +206,7 @@ iframe {
 
 .wrap-login100 {
   width: 500px;
-  /* background: #fff; */
-  border-radius: 20px;
-  overflow: hidden;
+  position: relative;
 }
 
 
@@ -341,6 +344,7 @@ iframe {
   background-color: #f8f9fa;
   width: 50%;
   color: #000000;
+  border: 1pt solid #007bff;
 }
 
 .login100-form-btn:hover {
@@ -553,14 +557,14 @@ iframe {
   position: relative;
   display: block;
   width: 58%;
-  height: 30px;
+  height: 26px;
   background: #cccccc;
   border-radius: 5px;
   padding: 0 35px 0 35px;
 }
 
 .search-form {
-  width: 86%;
+  width: 317%;
   position: relative;
   text-align: -webkit-center;
 }
@@ -571,6 +575,11 @@ iframe {
 .limiter {
   width: 100%;
   margin: 0 auto;
+}
+
+.scroll-tab {
+  overflow:scroll;
+  height:100px;
 }
 
 .container-table100 {
@@ -843,7 +852,7 @@ tbody tr:hover {
   width: 2%;
   height: 26px;
   border-radius: 25px;
-  background-color: #fff;
+  background-color: #d8d8d8;
   margin-top: -1%;
 }
 
