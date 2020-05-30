@@ -28,7 +28,7 @@
 									<?php for ($i=0; $i < 20 ; $i++) { 
 										$text = '<tr>
 										<td class="column1 p-l-5">01/01/20</td>
-										<td class="column2 p-l-5">Terminée</td>
+										<td class="column2 p-l-5"><div class="online m-r-5"></div>Terminée</td>
 										<td class="column3 p-l-40">0000</td>
 										<td class="column4">
 											<div>1 nom de la rue</div>
