@@ -8,10 +8,14 @@
 					<div class="container-login100 ">
 						<div class="wrap-login100">
 							<form class="login100-form validate-form m-t-65 p-l-55 p-r-55">
-								<span class="login100-form-title">
-									Bienvenue
+								<div class="login-title">
+									<span class="login100-form-title m-r-10">
+										Bienvenue
 								</span>
-								
+									<img id="waving-hand" src="{{ asset('assets/images/icons/waving-hand.png') }}" alt="">
+
+								</div>
+						
 								<span class="label">Email</span>
 								<div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter email">
 									<input class="input100" type="email" name="email">
@@ -63,7 +67,7 @@
 									Code AG
 								</span>
 								<div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate="Please enter Code AG">
-									<input class="input100 input100-two" type="number" name="username">
+									<input class="input100 input100-two" type="number" name="code_ag">
 									<span class="focus-input100"></span>
 								</div>
 								

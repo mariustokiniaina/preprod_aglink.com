@@ -30,15 +30,18 @@
 
 			</ul>
 
-			<div class="nav-btn">
-			@if (Route::current()->getName() == 'assemble-gle-detail')
-				<button>
-					<span class="btn-add m-l-5">Commencer l'AG</span>
+				@if (Route::current()->getName() == 'assemble-gle-detail')
+				<div id="start-ag" class="nav-btn">
+					<button>
+						<i class="fa fa-play ag"></i>
+						<span class="btn-add m-l-5">Commencer l'AG</span>
+				@else
+				<div class="nav-btn">
+					<button>
+					<i class="fa fa-plus add ag" aria-hidden="true"></i>
+					<span class="btn-add m-l-5">Créer un AG</span>
+				@endif
 				</button>
-			@else
-				<i class="fa fa-plus add ag" aria-hidden="true"></i>
-				<span class="btn-add m-l-5">Créer un AG</span>
-			@endif
 			</div>
 		@elseif (Route::current()->getName() == 'homepage')
 			<form class="search-form validate-form p-l-55 p-r-55">

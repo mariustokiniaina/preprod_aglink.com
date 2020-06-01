@@ -40,7 +40,7 @@
 body, html {
   height: 100%;
   margin:0;
-  /* font-family: Ubuntu-Regular, sans-serif; */
+  font-family: OpenSans-Semibold, sans-serif;
   line-height: unset;
   /* overflow-y: hidden; */
 }
@@ -213,6 +213,16 @@ iframe {
 /*==================================================================
 [ Form ]*/
 
+.login-title {
+  display: flex;
+}
+
+img#waving-hand {
+  width: 10%;
+  height: 10%;
+}
+
+
 .login100-form {
   width: 100%;
   position: relative;
@@ -225,7 +235,6 @@ iframe {
   text-align: left;
   display: block;
   position: inherit;
-  width: 100%;
   padding-bottom: 20px;
 }
 
@@ -252,17 +261,16 @@ iframe {
 }*/
 
 .input100 {
-  font-family: Ubuntu-Bold;
   font-size: 15px;
   color: #1b3815;
   line-height: 1.2;
-
   position: relative;
   display: block;
   width: 70%;
   height: 35px;
-  background: #f8f9fa;
+  background: #fff;
   border-radius: 5px;
+  border: 2px solid #c3c4d6;
   padding: 0 35px 0 35px;
 }
 
@@ -341,10 +349,11 @@ iframe {
 }
 
 .btn-two {
-  background-color: #f8f9fa;
-  width: 50%;
+  background-color: rgb(241, 242, 255);
+  width: 53%;
   color: #000000;
-  border: 1pt solid #007bff;
+  border: 2pt solid #007bff;
+  font-family: OpenSans-Semibold;
 }
 
 .login100-form-btn:hover {
@@ -697,6 +706,7 @@ tbody tr:hover {
     font-family: Ubuntu-Bold;
     font-size: 14px;
     color: #fff;
+    background-color: #0066ff;
 }
 
 .gest-btn {
@@ -822,7 +832,7 @@ tbody tr:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 12%;
+  width: 14%;
   height: 30px;
   border-radius: 25px;
   font-family: Ubuntu-Bold;
@@ -909,3 +919,78 @@ tbody tr:hover {
       border-left: .3em solid;
   }
 }
+
+/* -------------------------------------------- */
+/* A G detail */
+
+i.fa.fa-play.ag {
+  color: #0066ff;
+}
+
+.head-title {
+  display: flex;
+  font-family: OpenSans-Semibold;
+  font-size: 24px;
+  color: #212529;
+  line-height: 1.2;
+  position: relative;
+  width: auto;
+  top: 0;
+  left: 0;
+  padding-bottom: 15px;
+}
+
+.id-title {
+  font-family: OpenSans-Semibold;
+  font-size: 16px;
+  color: #949494;
+  padding-bottom: 15px;
+}
+
+.mod {
+  color: #0066ff;
+}
+
+.btn-add-res {
+    display: -webkit-inline-box;
+    background-color: #0066ff;
+    padding: 6px 26px 6px;
+    border-radius: 7px;
+}
+
+.res {
+  color: #fff !important;
+}
+
+.bg-res {
+  background-color: #fff;
+}
+
+.bgcolor {
+ display: flex;
+ background-color: #66666633;
+ height: 90px;
+ padding: 23px 13px 23px 13px;
+}
+
+.align-c {
+  text-align: -webkit-center;
+}
+
+.order-title {
+  font-size: 14px;
+}
+
+.ordre-btn {
+  width: 27%;
+  height: 28px;
+  border-radius: 7px;
+  font-family: Ubuntu-Bold;
+}
+
+span.id_ordre {
+  color: #949494;
+  font-family: OpenSans-Semibold;
+  font-size: 36px;
+}
+

@@ -24,38 +24,31 @@
 									</tr>
 								</thead>
 								<tbody>
-
-									<?php for ($i=0; $i < 20 ; $i++) { 
-										$text = '<tr>
-										<td class="column1 p-l-5">01/01/20</td>
-										<td class="column2 p-l-5"><div class="online m-r-5"></div>Terminée</td>
-										<td class="column3 p-l-40">0000</td>
-										<td class="column4">
-											<div>1 nom de la rue</div>
-											<div>0000 Vile</div>
-			
-										</td>
-										<td class="column5 p-l-8">
-											<span class="p-r-8">12</span>
-												<a href="#">
-													<button class="copro-btn btn-primary">5 via AGlink
+									@for ($i = 0; $i < 20; $i++)
+										<tr href="{{ url('assemble-gle') }}/AG093{{ $i }} " title="AG093{{ $i }}">
+											<td class="column1 p-l-5">01/01/20</td>
+											<td class="column2 p-l-5"><div class="online m-r-5"></div>Terminée</td>
+											<td class="column3 p-l-40">0000</td>
+											<td class="column4">
+												<div>1 nom de la rue</div>
+												<div>0000 Vile</div>
+				
+											</td>
+											<td class="column5 p-l-8">
+												<span class="p-r-8">12</span>
+												<a id="btn-aglink" href="#" >
+													<button class="copro-btn btn-primary">5 via AGlink</button>
+												</a>
+											</td>
+											<td class="column6 p-l-33">
+												<span class="m-r-8">Jean Dupont</span>
+												<a href="#" class="trois-points">
+													<button class="gest-btn btn-primary"><i class="fa fa-ellipsis-v"></i>
 													</button>
 												</a>
-										</td>
-										<td class="column6 p-l-33">
-											<span class="m-r-8">Jean Dupont</span>
-											<a class="trois-points">
-												<button class="gest-btn btn-primary"><i class="fa fa-ellipsis-v"></i>
-												</button>
-											</a>
-										</div>
-
-
-										</td>
-									</tr>';
-										echo $text;
-									} 
-									?>
+											</td>
+										</tr>
+									@endfor
 								</tbody>
 							</table>
 						</div>
