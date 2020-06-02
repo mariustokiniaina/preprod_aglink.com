@@ -990,3 +990,8 @@ span.id_ordre {
   font-size: 36px;
 }
 
+button.via-btn {
+  width: 30%;
+  padding-bottom: 3px;
+}
+

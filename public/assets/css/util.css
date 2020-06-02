@@ -2350,6 +2350,8 @@
 */
 .bgwhite {background-color: white;}
 .bgblack {background-color: black;}
+.bgblue {background-color: #0066ff;}
+.bggreen {background-color: #33cc66;}
 
 
 
@@ -2405,6 +2407,7 @@
 -----------------------------------------------------------
 */
 .bo-cir {border-radius: 50%;}
+.bo-25 {border-radius: 25px;}
 
 .of-hidden {overflow: hidden;}
 
