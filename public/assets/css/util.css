@@ -2229,6 +2229,7 @@
 /* ------------------------------------ */
 .text-white {color: white;}
 .text-black {color: black;}
+.text-id {color: #949494;}
 
 .text-hov-white:hover {color: white;}
 
@@ -2276,6 +2277,7 @@
 */
 .dis-none {display: none;}
 .dis-block {display: block;}
+.dis-grid {display: grid;}
 .dis-inline {display: inline;}
 .dis-inline-block {display: inline-block;}
 .dis-flex {

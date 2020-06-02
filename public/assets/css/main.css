@@ -442,7 +442,6 @@ img#waving-hand {
 
 .dashbord-title {
     font-family: OpenSans-Semibold;
-    font-size: 24px;
     color: #212529;
     line-height: 1.2;
     display: block;
@@ -528,7 +527,6 @@ img#waving-hand {
     font-family: OpenSans-Semibold;
     line-height: 1.2;
     display: contents;
-    font-size: 16px;
 }
 
 .detail-txt1{
@@ -536,9 +534,7 @@ img#waving-hand {
 }
 
 .sub-content{
-  font-size: 12px;
   font-family: Ubuntu-Regular;
-  /*color: #57b846;*/
   line-height: 1.4;
 }
 
@@ -966,6 +962,10 @@ i.fa.fa-play.ag {
   background-color: #fff;
 }
 
+.description-res {
+  display: grid;
+}
+
 .bgcolor {
  display: flex;
  background-color: #66666633;
@@ -975,10 +975,6 @@ i.fa.fa-play.ag {
 
 .align-c {
   text-align: -webkit-center;
-}
-
-.order-title {
-  font-size: 14px;
 }
 
 .ordre-btn {

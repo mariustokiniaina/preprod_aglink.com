@@ -3,7 +3,7 @@
 		<div class="row">
 
 			<div class="col-sm">
-				<span class="dashbord-title">
+				<span class="dashbord-title fs-24">
 					Assemblées générales
 				</span>
 				<div class="dashbord-btn dashbord-btn-1 m-b-15">
@@ -159,7 +159,7 @@
 			</div>
 
 			<div class="col-sm">
-				<span class="dashbord-title">
+				<span class="dashbord-title fs-24">
 					Immeubles
 				</span>
 				<div class="dashbord-btn dashbord-btn-2 m-b-15">
@@ -257,7 +257,7 @@
 
 			<div class="col-sm">
 							
-				<span class="dashbord-title">
+				<span class="dashbord-title fs-24">
 					Gestionnaires
 				</span>
 				<div class="dashbord-btn dashbord-btn-3 m-b-15 ">

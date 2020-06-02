@@ -3,7 +3,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-sm">
-			<span class="dashbord-title">
+			<span class="dashbord-title fs-24">
 				Toutes les assemblées générales
 			</span>
 	
@@ -60,7 +60,7 @@
 
 
 		<div class="col-sm">
-			<span class="dashbord-title">
+			<span class="dashbord-title fs-24">
 				Historique
 			</span>
 

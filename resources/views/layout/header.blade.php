@@ -1,4 +1,4 @@
-@extends('layout.index')
+@include('layout.index')
 
 @if (Route::current()->getName() == 'assemble-gle' || Route::current()->getName() == 'assemble-gle-detail')
 <div class="navbar navbar-expand-md mb-4" role="navigation">

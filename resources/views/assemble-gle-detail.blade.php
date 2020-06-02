@@ -10,11 +10,20 @@
                             {{Request::segment(2)}}
                         </span>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm text-right">
                         <a href="#"><span class="id-title mod">Modifier</span></a>
                     </div>
-
                 </div>
+
+            <div class="dis-grid">
+                <span class="dashbord-title fs-22">13 rue Montebello <br> 78000 Versailles</span>
+                <span class="fs-15">lundi 25 mai 2020 à 18h30</span>
+				<img class="p-t-12 p-b-12" src="{{ asset('assets/images/google-map.png') }}" alt="map">
+                <span class="dashbord-title fs-15">Salle Pierre De Coubertin <br> 78000 Versailles</span>
+                <span class="p-t-12 p-b-12 text-id fs-20">Participants(24)</span>
+
+            </div>
+
             </div>
 
             <div class="col-9">
@@ -30,12 +39,12 @@
 
     			@for ($i = 1; $i < 20; $i++)
                 <div class="detail bgcolor">
-                            <div class="col-2 align-c "><span class="id_ordre">{{ $i }}</span></div>
-                            <div class="col-8 p-t-7 p-b-7">
-                            <span class="detail-title order-title">
-                                Travaux de nettoyage des moquettes de parties communes
-                            </span>
-                                <span class="sub-content">
+                            <div class="col-2 align-c"><span class="id_ordre">{{ $i }}</span></div>
+                            <div class="description-res col-8">
+                                <span class="detail-title fs-14 ln-1-9">
+                                    Travaux de nettoyage des moquettes de parties communes
+                                </span>
+                                <span class="sub-content fs-12">
                                     Majorité simple - <i class="fa fa-paperclip"></i> 2 pièces jointes
                                 </span>
                             </div>
@@ -58,4 +67,4 @@
 
 
 
-@extends('layout.footer')
+@include('layout.footer')
