@@ -13,7 +13,7 @@
 									<span class="login100-form-title m-r-10">
 										Bienvenue
 								</span>
-									<img id="waving-hand" src="{{ asset('assets/images/icons/waving-hand.png') }}" alt="">
+									<img id="waving-hand" src="{{ asset('public/assets/images/icons/waving-hand.png') }}" alt="">
 
 								</div>
 						
