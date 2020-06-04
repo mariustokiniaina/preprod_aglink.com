@@ -6,7 +6,7 @@ RewriteEngine On
 
  
 
-# En-tête d'autorisation de poignée
+# En-tï¿½te d'autorisation de poignï¿½e
 
 RewriteCond% {HTTP: Autorisation}.
 
@@ -24,7 +24,7 @@ RewriteRule ^% 1 [L, R = 301]
 
  
 
-# Poignée du contrôleur avant ...
+# Poignï¿½e du contrï¿½leur avant ...
 
 RewriteCond% {REQUEST_URI}! (\. Css | \ .js | \ .png | \ .jpg | \ .gif | robots \ .txt) $ [NC]
 
@@ -43,3 +43,8 @@ RewriteCond% {REQUEST_FILENAME}! -F
 RewriteCond% {REQUEST_URI}! ^ / Public /
 
 RewriteRule ^ (css | js | images) / (. *) $ Public / $ 1 / $ 2 [L, NC]
+
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ RewriteRule ^ index.php [L]
+</IfModule>
