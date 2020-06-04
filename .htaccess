@@ -45,6 +45,8 @@ RewriteCond% {REQUEST_URI}! ^ / Public /
 RewriteRule ^ (css | js | images) / (. *) $ Public / $ 1 / $ 2 [L, NC]
 
 <IfModule mod_rewrite.c>
- RewriteEngine On
- RewriteRule ^ index.php [L]
+    RewriteEngine On
+
+    # Redirect if index.php is in the URL
+    RewriteRule ^index.php/(.+) /$1 [R=301,L]
 </IfModule>
