@@ -189,6 +189,14 @@ iframe {
   margin: 0 auto;
 }
 
+.limiter.two {
+  margin-left: -45px;
+}
+
+.container.login {
+  padding: 40px 50px 0px 50px;
+}
+
 .container-login100 {
   width: 100%;  
   display: -webkit-box;
@@ -241,7 +249,7 @@ img#waving-hand {
 .login-two {
     border-radius: 3%;
     background-color: rgb(241, 242, 255);
-    width: 85%;
+    width: 87%;
 }
 
 .title-two {
@@ -266,12 +274,12 @@ img#waving-hand {
   line-height: 1.2;
   position: relative;
   display: block;
-  width: 70%;
+  width: 85%;
   height: 35px;
   background: #fff;
   border-radius: 5px;
   border: 2px solid #c3c4d6;
-  padding: 0 35px 0 35px;
+  padding: 0 9px 0 9px;
 }
 
 .input100-two{
@@ -331,7 +339,7 @@ img#waving-hand {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-  width: 30%;
+  width: 3%;
   height: 36px;
   
   border-radius: 10px;
@@ -350,9 +358,9 @@ img#waving-hand {
 
 .btn-two {
   background-color: rgb(241, 242, 255);
-  width: 53%;
+  width: 57%;
   color: #000000;
-  border: 2pt solid #007bff;
+  border: 1.5pt solid #007bff;
   font-family: OpenSans-Semibold;
 }
 
