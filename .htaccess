@@ -1,0 +1,45 @@
+Options -MultiViews -Indexes
+
+ 
+
+RewriteEngine On
+
+ 
+
+# En-tête d'autorisation de poignée
+
+RewriteCond% {HTTP: Autorisation}.
+
+RewriteRule. * - [E = HTTP_AUTHORIZATION:% {HTTP: Authorization}]
+
+ 
+
+# Rediriger les barres obliques de fin s'il ne s'agit pas d'un dossier ...
+
+RewriteCond% {REQUEST_FILENAME}! -D
+
+RewriteCond% {REQUEST_URI} (. +) / $
+
+RewriteRule ^% 1 [L, R = 301]
+
+ 
+
+# Poignée du contrôleur avant ...
+
+RewriteCond% {REQUEST_URI}! (\. Css | \ .js | \ .png | \ .jpg | \ .gif | robots \ .txt) $ [NC]
+
+RewriteCond% {REQUEST_FILENAME}! -D
+
+RewriteCond% {REQUEST_FILENAME}! -F
+
+RewriteRule ^ index.php [L]
+
+ 
+
+RewriteCond% {REQUEST_FILENAME}! -D
+
+RewriteCond% {REQUEST_FILENAME}! -F
+
+RewriteCond% {REQUEST_URI}! ^ / Public /
+
+RewriteRule ^ (css | js | images) / (. *) $ Public / $ 1 / $ 2 [L, NC]
