@@ -22,6 +22,8 @@ RewriteCond% {REQUEST_URI} (. +) / $
 
 RewriteRule ^% 1 [L, R = 301]
 
+RewriteRule ^index.php/(.+) /$1 [R=301,L]
+
  
 
 # Poign�e du contr�leur avant ...
@@ -32,7 +34,7 @@ RewriteCond% {REQUEST_FILENAME}! -D
 
 RewriteCond% {REQUEST_FILENAME}! -F
 
-RewriteRule ^ index.php [L]
+#RewriteRule ^ index.php [L]
 
  
 
