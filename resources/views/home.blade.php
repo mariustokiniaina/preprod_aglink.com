@@ -13,23 +13,21 @@
 									<span class="login100-form-title m-r-10">
 										Bienvenue
 								</span>
-									<img id="waving-hand" src="{{ asset('public/assets/images/icons/waving-hand.png') }}" alt="">
+									<img id="waving-hand" src="{{ asset('assets/images/icons/waving-hand.png') }}" alt="">
 
 								</div>
 						
 								<span class="label">Email</span>
-								<div class="wrap-input100 validate-input p-t-6 m-b-16" data-validate= "Please enter email">
+								<div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter email">
 									<input class="input100" type="email" name="email">
-									<span class="focus-input100"></span>
 								</div>
 
 								<span class="label">Mot de passe</span>
-								<div class="wrap-input100 validate-input  p-t-6 m-b-16" data-validate = "Please enter password">
+								<div class="wrap-input100 validate-input  p-t-12 m-b-16" data-validate = "Please enter password">
 									<input class="input100" type="password" name="pass">
-									<span class="focus-input100"></span>
 								</div>
 
-								<div class="text-left p-b-33">
+								<div class="text-left p-t-13 p-b-33">
 									<span class="txt1">
 										<a href="#" class="txt1">
 											Mot de passe oublié ?
@@ -60,22 +58,20 @@
 
 								<div class="p-t-13 p-b-18 p-r-8">
 								<span class="txt1 txt1-two">
-									Retrouver vos informations de connexion <br> dans l'email envoyé par votre gestionnaire.
+									Retrouver vos informations de connexion dans l'email envoyé par votre gestionnaire.
 									</span>
 								</div>
 
 								<span class="label">
 									Code AG
 								</span>
-								<div class="wrap-input100 validate-input p-t-6 m-b-16" data-validate="Please enter Code AG">
+								<div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate="Please enter Code AG">
 									<input class="input100 input100-two" type="text" name="code_ag">
-									<span class="focus-input100"></span>
 								</div>
 								
 								<span class="label">Mot de passe</span>
-								<div class="wrap-input100 validate-input  p-t-6 m-b-16" data-validate = "Please enter password">
+								<div class="wrap-input100 validate-input  p-t-12 m-b-16" data-validate = "Please enter password">
 									<input class="input100 input100-two" type="password" name="pass">
-									<span class="focus-input100"></span>
 								</div>
 
 								<div class="container-login100-form-btn m-t-27">

@@ -16,7 +16,7 @@
 .fs-13 {font-size: 13px;}
 .fs-14 {font-size: 14px;}
 .fs-15 {font-size: 15px;}
-.fs-16 {font-size: 16px;}
+.fs-16 {font-size: 16px !important;}
 .fs-17 {font-size: 17px;}
 .fs-18 {font-size: 18px;}
 .fs-19 {font-size: 19px;}
@@ -456,12 +456,12 @@
 .p-t-248 {padding-top: 248px;}
 .p-t-249 {padding-top: 249px;}
 .p-t-250 {padding-top: 250px;}
-.p-b-0 {padding-bottom: 0px;}
+.p-b-0 {padding-bottom: 0px !important;}
 .p-b-1 {padding-bottom: 1px;}
 .p-b-2 {padding-bottom: 2px;}
 .p-b-3 {padding-bottom: 3px;}
 .p-b-4 {padding-bottom: 4px;}
-.p-b-5 {padding-bottom: 5px;}
+.p-b-5 {padding-bottom: 5px !important;}
 .p-b-6 {padding-bottom: 6px;}
 .p-b-7 {padding-bottom: 7px;}
 .p-b-8 {padding-bottom: 8px;}
@@ -1209,6 +1209,9 @@
 .p-r-248 {padding-right: 248px;}
 .p-r-249 {padding-right: 249px;}
 .p-r-250 {padding-right: 250px;}
+
+.p-l-n {padding-left: 0px !important;}
+.p-r-n {padding-right: 0px !important;}
 
 /*[ MARGIN ]
 ///////////////////////////////////////////////////////////
@@ -2223,13 +2226,19 @@
 
 
 
-/*[ TEXT ]
+/*[ TEXT & Button ]
 ///////////////////////////////////////////////////////////
 */
 /* ------------------------------------ */
-.text-white {color: white;}
-.text-black {color: black;}
-.text-id {color: #949494;}
+.text-white {color: white !important;}
+.text-blue {color: #0066ff !important;}
+.btn-blue:hover { color: #0066ff4a !important;}
+.text-green {color: #33cc66 !important;}
+.btn-green:hover { color: #33cc664a !important;} 
+.text-orange {color: #ff9900 !important;}
+.btn-orange:hover { color: #ff99004a !important;} 
+.text-black {color: black !important;}
+.text-id {color: #949494 !important;}
 
 .text-hov-white:hover {color: white;}
 
@@ -2309,12 +2318,25 @@
 	width: 100%;
 	height: 100%;
 }
-.w-full {width: 100%;}
+.w-full {width: 100% !important;}
 .h-full {height: 100%;}
 .max-w-full {max-width: 100%;}
 .max-h-full {max-height: 100%;}
 .min-w-full {min-width: 100%;}
 .min-h-full {min-height: 100%;}
+
+
+.w-1 {width: 15% !important;}
+.w-2 {width: 17% !important;}
+.w-3 {width: 8% !important;}
+.w-4 {width: 11% !important;}
+.w-19 {width: 19% !important;}
+.w-17 {width: 17% !important;}
+.w-25 {width: 25% !important;}
+.w-auto {width: auto !important;}
+.w-60 {width: 60% !important;}
+
+.w-172 {width: 172px !important;}
 
 /*[ Top Bottom Left Right ]
 -----------------------------------------------------------
@@ -2348,10 +2370,14 @@
 /*[ Background ]
 -----------------------------------------------------------
 */
-.bgwhite {background-color: white;}
-.bgblack {background-color: black;}
-.bgblue {background-color: #0066ff;}
-.bggreen {background-color: #33cc66;}
+.bgwhite {background-color: white !important;}
+.bgblack {background-color: black !important;}
+.bgblue {background-color: #0066ff !important;}
+.bg_h_blue {background-color: #0066ff4a !important;}
+.bggreen {background-color: #33cc66 !important;}
+.bg_h_green {background-color: #33cc664a !important;}
+.bgorange {background-color: #ff9900 !important;}
+.bg_h_orange {background-color: #ff99004a !important;}
 
 
 

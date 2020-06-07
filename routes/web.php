@@ -17,15 +17,12 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/homepage', function () {
-    return view('dashboard-(Syndic-View)');
-})->name('homepage');
+Route::get('homepage', 'HomeController@index')->name('homepage');
 
-Route::get('/assemble-gle', function () {
-    return view('assemble-gle');
-})->name('assemble-gle');
+Route::get('view-all-ag','AssembleeController@index')->name('assemble-gle');
+Route::get('view-all-immeuble','ImmeubleController@index')->name('immeuble');
+Route::get('view-all-gestionnaire','GestionnaireController@index')->name('gestionnaire');
 
-
-Route::get('assemble-gle/{id}', function () {
-    return view('assemble-gle-detail');
-})->name('assemble-gle-detail');
+Route::get('view-detail-ag/{id}','AssembleeController@show')->name('assemble-gle-detail');
+Route::get('view-detail-immeuble/{id}','ImmeubleController@show')->name('immeuble-detail');
+Route::get('view-detail-gestionnaire/{id}','GestionnaireController@show')->name('gestionnaire-detail');

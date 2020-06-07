@@ -93,6 +93,8 @@ input {
   border: none;
 }
 
+:focus { outline: none; }
+
 input[type="number"] {
     -moz-appearance: textfield;
     appearance: none;
@@ -260,13 +262,13 @@ img#waving-hand {
 /*------------------------------------------------------------------
 [ Input ]*/
 
-/*.wrap-input100 {
+.wrap-input100 {
   width: 100%;
   background-color: #fff;
   border-radius: 27px;
   position: relative;
   z-index: 1;
-}*/
+}
 
 .input100 {
   font-size: 15px;
@@ -282,6 +284,10 @@ img#waving-hand {
   padding: 0 9px 0 9px;
 }
 
+.input100:focus {
+  border: 2px solid #0066ff !important;
+}
+
 .input100-two{
   width: 100%;
 }
@@ -290,7 +296,7 @@ img#waving-hand {
 /*------------------------------------------------------------------
 [ Focus Input ]*/
 
-.focus-input100 {
+/* .input100:focus {
   display: block;
   position: absolute;
   z-index: -1;
@@ -311,11 +317,11 @@ img#waving-hand {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-}
+} */
 
-.input100:focus + .focus-input100 {
+/* .input100:focus + .focus-input100 {
   width: calc(100% + 20px);
-}
+} */
 
 /*------------------------------------------------------------------
 [ Button ]*/
@@ -439,6 +445,12 @@ img#waving-hand {
   }
 }*/
 
+span.sub-content.bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ Responsive ]*/
 @media (max-width: 576px) {
@@ -512,17 +524,6 @@ img#waving-hand {
   border-color: #ffc10780;
 }
 
-.detail.ag-bg-color {
-    background-color: #0066ff4a;
-}
-
-.detail.immeuble-bg-color {
-    background-color: #33cc6647;
-}
-
-.detail.gestionnaire-bg-color {
-    background-color: #ffc10745;
-}
 
 .detail {
   width: 100%;
@@ -548,18 +549,18 @@ img#waving-hand {
 
 .fa.add {
     font-size: 14px;
-    background-color: #fff;
     color: #0066ff;
+    background-color: #fff;
     padding: 2px 4px 2px 4px;
     border-radius: 10px;
 }
 
 .fa.add.two {
-    color: #4cd964;
+    color: #33cc66;
 }
 
 .fa.add.tree {
-    color: #ffc107;
+    color: #ff9900;
 }
 
 .search {
@@ -580,6 +581,22 @@ img#waving-hand {
   width: 317%;
   position: relative;
   text-align: -webkit-center;
+}
+
+.link-home-detail {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.btn-edit {
+  display: flex;
+  padding: 6px 26px 6px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-radius: 7px;
+  background-color: #fff;
+  margin-top: -4px;
 }
 
 
@@ -730,14 +747,6 @@ tbody tr:hover {
   font-size: 14px;
 }
 
-.btn-link-hs {
-  color: #0066ff;
-}
-
-.btn-link-hs:hover {
-  color: #0066ff40;
-}
-
 .online {
   display: inline-block;
   width: 8px;
@@ -828,7 +837,6 @@ tbody tr:hover {
 /* -------------------------------------------- */
 /* [Navbar] */
 .navbar.navbar-expand-md.mb-4 {
-  background-color: #0066ff;
   height: 11%;
 }
 
@@ -845,15 +853,6 @@ tbody tr:hover {
   line-height: 1.2;
   color: #0066ff;
 
-}
-
-.fa.add.ag {
-  color: #fff;
-  background-color: #0066ff;
-}
-
-.btn-add{
-  color: #0066ff;
 }
 
 .brand {
@@ -957,7 +956,6 @@ i.fa.fa-play.ag {
 
 .btn-add-res {
     display: -webkit-inline-box;
-    background-color: #0066ff;
     padding: 6px 26px 6px;
     border-radius: 7px;
 }
@@ -1003,3 +1001,27 @@ button.via-btn {
   padding-bottom: 3px;
 }
 
+
+/* Modal */
+.modal-content {
+  border-radius: 1.3rem !important;
+}
+
+@media (min-width: 992px){
+  .modal-lg {
+      max-width: 69% !important;
+  }
+}
+
+@media (min-width: 576px){
+  .modal-dialog {
+      max-width: 500px;
+      margin: 7% auto !important;
+  }
+}
+
+.ajouter-immeuble-titre {
+  border: 1.8pt solid #b7afaf;
+  border-radius: 7px;
+}
+ 

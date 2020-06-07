@@ -17,9 +17,9 @@ $(document).ready(function(){
     });
 
     $('div#start-ag').click(function(){
-            alert('start the General Assembly');
+        alert('start the General Assembly');
     });
-
+    
 });
 
 (function ($) {
