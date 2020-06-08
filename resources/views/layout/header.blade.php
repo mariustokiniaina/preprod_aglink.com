@@ -75,9 +75,9 @@ role="navigation">
                     <button data-dismiss="modal">
                         <span class="m-t-12 bottom" style="color:red;">Annuler</span>
                     </button>
-                    <div class="btn-edit float-r w-60 {{ $bg }}">
+                    <div class="btn-edit float-r w-60 bggreen">
                         <button type="submit">
-                            <i class="fa fa-plus add {{ $text_color }}" aria-hidden="true"></i>
+                            <i class="fa fa-plus add text-green" aria-hidden="true"></i>
                             <span class="text-white">Ajouter à l'immeuble</span>
                         </button>
                     </div>
