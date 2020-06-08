@@ -21,7 +21,7 @@
                 @if ($page_name == 'assemblee-generale')
                     <span class="dashbord-title fs-22">{{ $rue }} <br> {{ $ville }}</span>
                     <span class="fs-15">lundi 25 mai 2020 à 18h30</span>
-                    <img class="p-t-12 p-b-12" src="{{ asset('assets/images/google-map.png') }}" alt="map">
+                    <img class="p-t-12 p-b-12" src="{{ asset('public/assets/images/google-map.png') }}" alt="map">
                 @endif
                 
                 @if ($page_name == 'immeuble')
@@ -33,7 +33,7 @@
                     <span class="dashbord-title fs-20 p-b-0">Immatriculation</span>
                     <span class="sub-content fs-14">{{ $immatriculation }}</span>
 
-                    <img class="p-t-12 p-b-12" src="{{ asset('assets/images/google-map.png') }}" alt="map">
+                    <img class="p-t-12 p-b-12" src="{{ asset('public/assets/images/google-map.png') }}" alt="map">
                 @endif
 
                 @if ($page_name == 'gestionnaire')
@@ -53,7 +53,7 @@
                         <ul>
                         @for ($i = 1; $i <= 8; $i++)
                             <li>
-                                <img class="p-t-12 p-b-12" src="{{ asset('assets/images/participant-1.png') }}" alt="">
+                                <img class="p-t-12 p-b-12" src="{{ asset('public/assets/images/participant-1.png') }}" alt="">
                                 <span class="m-l-5 m-r-5">Jules Cesar</span>
                                 <button class="via-btn bo-25 bgblue ">
                                     <span class="text-white fs-12">via AGlink</span>
@@ -61,7 +61,7 @@
                             </li>
 
                             <li>
-                                <img class="p-t-12 p-b-12" src="{{ asset('assets/images/participant-2.png') }}" alt="">
+                                <img class="p-t-12 p-b-12" src="{{ asset('public/assets/images/participant-2.png') }}" alt="">
                                 <span class="m-l-5 m-r-5">Maëlle Angeli</span>
                                 <button class="via-btn bo-25 bggreen">
                                     <span class="text-white fs-12">Sur place</span>
@@ -69,7 +69,7 @@
                             </li>
 
                             <li>
-                                <img class="p-t-12 p-b-12" src="{{ asset('assets/images/participant-3.png') }}" alt="">
+                                <img class="p-t-12 p-b-12" src="{{ asset('public/assets/images/participant-3.png') }}" alt="">
                                 <span class="m-l-5 m-r-5">Liam Nielsen</span>
                                 <span class="btn-add via-btn m-l-5"></span>
                             </li>
