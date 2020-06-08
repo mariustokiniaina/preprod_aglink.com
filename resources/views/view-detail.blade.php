@@ -152,5 +152,106 @@
     </div>
 </div>
 
+<!-- ajouter un copropriétaire -->
+@if ($page_name == 'immeuble')
+<div class="modal fade new-copro" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    
+    <form class="" action="">
+        <div class="container p-t-50 p-r-50 p-b-50 p-l-50">
+            <div class="row p-b-22">
+                <div class="col-6">
+                    <span class="dashbord-title fs-22">Nouveau copropriétaire</span>
+                </div>
+                <div class="col-6 text-center">
+                    <button data-dismiss="modal">
+                        <span class="m-t-12 bottom" style="color:red;">Annuler</span>
+                    </button>
+                    <div class="btn-edit float-r w-63 bggreen">
+                        <button type="submit">
+                            <i class="fa fa-plus add text-green" aria-hidden="true"></i>
+                            <span class="text-white">Ajouter à l'immeuble</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="dis-grid">
+
+                            <span class="label fs-16">Prénom</span>
+                            <div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter ">
+                                <input class="input100 w-full" type="text" name="prenom">
+                            </div>
+
+                            <span class="label fs-16">Nom</span>
+                            <div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter">
+                                <input class="input100 w-full" type="nom" name="nom">
+                            </div>
+
+                            <span class="label fs-16">Email</span>
+                            <div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter ">
+                                <input class="input100 w-full" type="email" name="email">
+                            </div>
+
+                            <span class="label fs-16">Téléphone</span>
+                            <div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter ">
+                                <input class="input100 w-full" type="number" name="phone">
+                            </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="dis-grid">
+                        <div class="row m-t-m-5">
+                            <div class="col-12 eto">
+                                <span class="label fs-16">Adresse</span>
+                                <div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter ">
+                                    <input class="input100 w-full" type="text" name="address">
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-5">
+                                <span class="label fs-16">Code Postal</span>
+                                <div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter ">
+                                    <input class="input100 w-full" type="text" name="code_postal">
+                                </div>
+
+                                <span class="label fs-16">Tantième</span>
+                                <div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter">
+                                    <input class="input100 w-full" type="text" name="tantieme">
+                                </div>
+
+                                <span class="label fs-16">Clé de répartition</span>
+                                <div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter">
+                                    <input class="input100 w-full" type="text" name="cle">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                    <span class="label fs-16">Ville</span>
+                                    <div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter ">
+                                        <input class="input100 w-full" type="text" name="ville">
+                                    </div>
+
+                                    <span class="label fs-16">Numéro de lot</span>
+                                    <div class="wrap-input100 validate-input p-t-12 m-b-16" data-validate= "Please enter">
+                                        <input class="input100 w-full" type="text" name="lot">
+                                     </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    </div>
+  </div>
+</div>
+@endif
+
 
 @include('layout.footer')
